@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Roll Dice</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <input type="text" class="Input" value="" placeholder="Enter First Player name">
+            <button class="submit" type="submit">Add name</button>
+        </div>
+        <div class="mainArea">
+            <div class="box-0 active">
+                <p class="player player-0 ">Player 1</p>
+                <p class="point" id="score-0">55</p>
+                <div class="current">
+                    <p>current</p>
+                    <p class="hold_point" id="current-0">11</p>
+                </div>
+            </div>
+            <div class="box-1">
+                <p class="player player-1"> Player 2</p>
+                <p class="point" id="score-1">57</p>
+                <div class=" current">
+                    <p>current</p>
+                    <p class="hold_point" id="current-1">11</p>
+                </div>
+            </div>
+            <button class="tap1 "> New Game</button>
+            <img src="dice-6.png" alt="dice" class=dice>
+            <button class="tap2 ">Roll Dice</button>
+            <button class="tap3 ">Hold</button>
+        </div>
+
+    </div>
+    <script src="rolldice.js"></script>
+</body>
+
+</html>
